@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  margin: 5em 2em;
+}
+
+main {
+  font-size: 0;
+}
+
+.card {
+  font-size: 1rem;
+  display: inline-block;
+  width: 15rem;
+  padding: 5rem 1rem;
+  text-align: left;
+}
+
+.card--left {
+  background-color: #e38826;
+}
+
+.card--middle {
+  background-color: #006970;
+}
+
+.card--right {
+  background-color: #004241;
+}
+
+.card__title {
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.card__description {
+  color: rgba(255, 255, 255, 0.75);
+  padding-bottom: 3rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+footer {
+  margin-top: 10vh;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+footer .links {
+  text-decoration: none;
+  color: #006970;
+}
